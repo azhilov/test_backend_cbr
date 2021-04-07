@@ -29,3 +29,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Common\ApiClient\CbrExchangeRateApiClient:
+        arguments:
+            $apiUrl: '%env(string:EXCHANGE_RATE_API_URL)%'
+
+    App\Common\Converter\CbrConverter: ~
+    App\Common\Converter\ConverterInterface: '@App\Common\Converter\CbrConverter'

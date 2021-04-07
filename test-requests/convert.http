@@ -1,0 +1,25 @@
+POST http://localhost:8000/api/convert
+Content-Type: multipart/form-data; boundary=ConvertRequest
+
+--ConvertRequest
+Content-Disposition: form-data; name="from"
+
+AUD
+
+--ConvertRequest--
+
+--ConvertRequest
+Content-Disposition: form-data; name="to"
+
+BGN
+
+--ConvertRequest--
+
+--ConvertRequest
+Content-Disposition: form-data; name="value"
+
+10
+
+--ConvertRequest--
+
+###
