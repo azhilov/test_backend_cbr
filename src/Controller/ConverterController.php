@@ -25,7 +25,7 @@ class ConverterController extends AbstractController
      *
      * @return Response
      */
-    public function number(Request $request, CbrService $cbrService): Response
+    public function convert(Request $request, CbrService $cbrService): Response
     {
         $fromCurrency = $request->get('from');
         $toCurrency = $request->get('to');

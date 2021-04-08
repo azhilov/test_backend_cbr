@@ -1,4 +1,7 @@
 {
+    "dg/bypass-finals": {
+        "version": "v1.3.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -133,6 +136,9 @@
     "sebastian/version": {
         "version": "3.0.2"
     },
+    "symfony/browser-kit": {
+        "version": "v5.2.4"
+    },
     "symfony/cache": {
         "version": "v5.2.6"
     },
@@ -154,11 +160,17 @@
             "bin/console"
         ]
     },
+    "symfony/css-selector": {
+        "version": "v5.2.4"
+    },
     "symfony/dependency-injection": {
         "version": "v5.2.6"
     },
     "symfony/deprecation-contracts": {
         "version": "v2.2.0"
+    },
+    "symfony/dom-crawler": {
+        "version": "v5.2.4"
     },
     "symfony/dotenv": {
         "version": "v5.2.4"
